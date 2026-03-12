@@ -72,7 +72,7 @@ The project utilizes a **hybrid rendering approach**:
    - `TOTAL`: The number of images.
    - `IMAGE_URLS`: The string template that generates your file paths.
 
-## 📦 Tech Stack
+## Tech Stack
 - **Framework**: [React 19](https://react.dev/)
 - **3D Engine**: [Three.js](https://threejs.org/)
 - **Bridge**: [React Three Fiber](https://r3f.docs.pmnd.rs/)
