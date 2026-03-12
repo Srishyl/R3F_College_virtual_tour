@@ -1,4 +1,4 @@
-# 🏫 College Virtual Tour - Cinematic R3F Slideshow
+# Virtual Tour - R3F Slideshow
 
 Welcome to the **College Virtual Tour**, a state-of-the-art cinematic experience built using **React Three Fiber (R3F)** and **Three.js**. This application transforms a series of high-resolution 2D static images into a seamless, video-like virtual tour with professional transitions and high-end aesthetics.
 
