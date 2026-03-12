@@ -2,7 +2,7 @@
 
 Welcome to the **College Virtual Tour**, a state-of-the-art cinematic experience built using **React Three Fiber (R3F)** and **Three.js**. This application transforms a series of high-resolution 2D static images into a seamless, video-like virtual tour with professional transitions and high-end aesthetics.
 
-## 🌟 What is it?
+## What is it?
 
 Unlike traditional 360-degree tours that require complex panoramic stitching, this project uses **standard 2D photography** to create a premium, directed experience. It is designed to feel like a high-end promotional video, featuring:
 
@@ -13,7 +13,7 @@ Unlike traditional 360-degree tours that require complex panoramic stitching, th
 
 ---
 
-## 🛠️ How it's Implemented
+## How it's Implemented
 
 ### 1. High-Performance Rendering (`SlideshowScene.jsx`)
 The core of the application is a 3D scene where images are projected onto dynamic planes.
@@ -34,15 +34,8 @@ The project utilizes a **hybrid rendering approach**:
 
 ---
 
-## 🎨 Design Philosophy
 
-- **Premium Aesthetics**: The interface uses a sleek dark mode with glassmorphism effects, accent colors (`#00d4ff`), and modern typography (Orbitron for headers, Inter for UI).
-- **Micro-Animations**: Hover effects on buttons, smooth progress bar scaling, and subtle cross-fades ensure the app feels "alive" and responsive.
-- **Minimalist Controls**: The HUD stays out of the way, appearing only when needed, to keep the focus on the beautiful campus imagery.
-
----
-
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - [Node.js](https://nodejs.org/) (v18.0 or higher recommended)
@@ -70,7 +63,7 @@ The project utilizes a **hybrid rendering approach**:
 
 ---
 
-## 🎨 Customizing the Tour
+## Customizing the Tour
 
 ### Adding Your Own Photos
 1. Place your images in `public/college/`.
@@ -78,11 +71,6 @@ The project utilizes a **hybrid rendering approach**:
 3. Open `src/App.jsx` and update:
    - `TOTAL`: The number of images.
    - `IMAGE_URLS`: The string template that generates your file paths.
-
-### Adjusting Aesthetics
-- **Vignette Strength**: Change `uVig` in the `SlidePlane` component in `SlideshowScene.jsx`.
-- **Transition Speed**: Modify the multiplier in the `useFrame` interpolation logic in `SlideshowScene.jsx`.
-- **UI Colors**: All styles are centralized in `src/index.css` using CSS variables for easy branding.
 
 ## 📦 Tech Stack
 - **Framework**: [React 19](https://react.dev/)
